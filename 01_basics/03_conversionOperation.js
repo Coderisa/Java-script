@@ -32,3 +32,22 @@ ture=>1 false =>0
 ""=> false
 "ina" =>true
 */
+
+===========================================
+  let value=3
+let negValue=-value
+//console.log(negValue);
+
+console.log("1" + 2);//12
+console.log(1 +"2")//12
+console.log("1" +2+2)//122
+console.log(1+ 2+"2")//32
+console.log((3 + 4) * 5 % 3);//learn to put barackets 
+console.log(+true) //1
+console.log(true +)//Syntax error
+console.log(+"") //0
+
+let num1 ,num2 , num3
+num1 = num2 = num3 =100//but avoid 
+
+//learn about prefix and postfix from js MDN or ecma
