@@ -1,13 +1,25 @@
 const accountId=14453 // cont keyword should be iniatalized ,value cannt be changes ,reassigned ,reinitialized
+//accountId=2//not allowed
 let email="inaishu2426@gmail.com"
 var password=12345  
 accountCity="Jaipur"
-let accountState;
+let accountState;//undefined
+//accountId=23;//Error: Assignment to constant variable.
 
-console.log(accountId);
+console.log(accountCity); 
 
 /* 
 Prefer not to use var 
 becoz of issue in block scope and functional scope
 */
-console.table([accountId,email,password,accountCity,accountState])
+console.table([accountId,email,password,accountCity,accountState])//prints everything in table format
+/*┌─────────┬─────────────────────────┐
+│ (index) │ Values                  │
+├─────────┼─────────────────────────┤
+│ 0       │ 14453                   │
+│ 1       │ 'inaishu2426@gmail.com' │
+│ 2       │ 12345                   │
+│ 3       │ 'Jaipur'                │
+│ 4       │ undefined               │
+└─────────┴─────────────────────────┘
+*/
