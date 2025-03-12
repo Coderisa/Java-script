@@ -44,6 +44,9 @@ console.log("1" +2+2)//122
 console.log(1+ 2+"2")//32
 console.log((3 + 4) * 5 % 3);//learn to put barackets 
 console.log(+true) //1
+//Unary Plus Operator (+):
+//The + operator is used to convert a value to a number in JavaScript.
+//When applied to a boolean, it converts true to 1 and false to 0.
 console.log(true +)//Syntax error
 console.log(+"") //0
 
