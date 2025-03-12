@@ -1,0 +1,15 @@
+//Stack (Primitive ),Heap (Non-primitive)
+let ina="Hello"
+let ishu="bye"
+ishu="chai"
+console.log(ina);//Hello
+console.log(ishu);//chai -ina remained the same.
+
+let user1 = {
+   email:"inaishu2426@gmail.com",
+  upi="user@byl"
+}
+let user2=user1;//user1 passed as reference both present in stack point to the same loc in heap memory
+user2.email=:inasharma2426@gmail.com"
+console.log(user1.email);//inasharma2426@gmail.com
+console.log(user2.email);//inasharma2426@gmail.com
