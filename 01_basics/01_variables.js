@@ -22,4 +22,9 @@ console.table([accountId,email,password,accountCity,accountState])//prints every
 │ 3       │ 'Jaipur'                │
 │ 4       │ undefined               │
 └─────────┴─────────────────────────┘
+Difference Between var, let and const
+      Scope	 Redeclare 	Reassign	Hoisted	Binds this
+var	    No	  Yes       	Yes       	Yes 	Yes
+let   	Yes	  No        	Yes        	No	  No
+const 	Yes 	No        	No	        No  	No
 */
